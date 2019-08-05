@@ -57,5 +57,13 @@ namespace AirPort.Win {
             }
 #endif
         }
+
+        private void AirPortWindowsFormsApplication_CreateCustomTemplate(object sender, CreateCustomTemplateEventArgs e)
+        {
+            if (e.Template == )
+            {
+
+            }
+        }
     }
 }
