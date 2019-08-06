@@ -9,7 +9,7 @@ namespace AirPort.Module.BusinessObjects.Galaxy_db
 {
 
     [NavigationItem("Main")]
-    [DefaultClassOptions,ImageName("BO_Customer")]
+    [DefaultClassOptions]
     [DefaultProperty("FullName")]
     public partial class rb_Pilot
     {

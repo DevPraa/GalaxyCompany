@@ -5,7 +5,7 @@
     <Class Name="AirPort.Module.BusinessObjects.Galaxy_db.com_Pilot_Aircraft" ImageName="Action_Workflow_ShowWorkflowInstances" Caption="com_Pilot_Aircraft" />
     <Class Name="AirPort.Module.BusinessObjects.Galaxy_db.rb_Aircraft" ImageName="BO_Appearance" Caption="Aircraft" />
     <Class Name="AirPort.Module.BusinessObjects.Galaxy_db.rb_Airport" Caption="Airport" ImageName="BO_Organization" />
-    <Class Name="AirPort.Module.BusinessObjects.Galaxy_db.rb_Pilot" Caption="Pilot" />
+    <Class Name="AirPort.Module.BusinessObjects.Galaxy_db.rb_Pilot" Caption="Pilot" ImageName="BO_Customer" />
   </BOModel>
   <SchemaModules>
     <SchemaModule Name="SystemModule" Version="17.1.6.0" IsNewNode="True" />

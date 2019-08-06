@@ -8,7 +8,7 @@ using DevExpress.Persistent.Base;
 namespace AirPort.Module.BusinessObjects.Galaxy_db
 {
     [NavigationItem("Main")]
-    [DefaultClassOptions, ImageName("BO_Task")]
+    [DefaultClassOptions]
     [DefaultProperty("Name")]
     public partial class rb_Airport
     {
