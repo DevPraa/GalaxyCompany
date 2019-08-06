@@ -95,9 +95,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="BusinessObjects\ORMDataContextCode\com_Airport_Pilot_Aircraft.cs" />
-    <Compile Include="BusinessObjects\ORMDataContextCode\com_Airport_Pilot_Aircraft.Designer.cs">
-      <DependentUpon>com_Airport_Pilot_Aircraft.cs</DependentUpon>
+    <Compile Include="BusinessObjects\ORMDataContextCode\com_Airport_Aircraft.cs" />
+    <Compile Include="BusinessObjects\ORMDataContextCode\com_Airport_Aircraft.Designer.cs">
+      <DependentUpon>com_Airport_Aircraft.cs</DependentUpon>
     </Compile>
     <Compile Include="BusinessObjects\ORMDataContextCode\com_Pilot_Aircraft.cs" />
     <Compile Include="BusinessObjects\ORMDataContextCode\com_Pilot_Aircraft.Designer.cs">

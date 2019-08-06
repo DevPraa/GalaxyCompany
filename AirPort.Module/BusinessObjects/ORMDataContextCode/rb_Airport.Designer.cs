@@ -31,8 +31,8 @@ namespace AirPort.Module.BusinessObjects.Galaxy_db
             get { return _Name; }
             set { SetPropertyValue<string>("Name", ref _Name, value); }
         }
-        [Association(@"com_Airport_Pilot_AircraftReferencesrb_Airport")]
-        public XPCollection<com_Airport_Aircraft> com_Airport_Pilot_Aircrafts { get { return GetCollection<com_Airport_Aircraft>("com_Airport_Pilot_Aircrafts"); } }
+        [Association(@"com_Airport_AircraftReferencesrb_Airport")]
+        public XPCollection<com_Airport_Aircraft> com_Airport_Aircrafts { get { return GetCollection<com_Airport_Aircraft>("com_Airport_Aircrafts"); } }
         [Association(@"rb_PilotReferencesrb_Airport")]
         public XPCollection<rb_Pilot> rb_Pilots { get { return GetCollection<rb_Pilot>("rb_Pilots"); } }
     }
