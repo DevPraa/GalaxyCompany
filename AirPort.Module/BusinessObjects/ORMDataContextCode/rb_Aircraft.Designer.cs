@@ -25,7 +25,7 @@ namespace AirPort.Module.BusinessObjects.Galaxy_db
             set { SetPropertyValue<int>("Id", ref _Id, value); }
         }
         string _Name;
-        [Size(420)]
+        [Size(199)]
         [DevExpress.Persistent.Validation.RuleRequiredField]
         public string Name
         {

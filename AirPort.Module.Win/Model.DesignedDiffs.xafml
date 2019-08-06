@@ -1,2 +1,14 @@
-﻿<?xml version="1.0" ?>
-<Application />
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application>
+  <BOModel>
+    <Class Name="AirPort.Module.BusinessObjects.Galaxy_db.com_Airport_Aircraft" Caption="com_Airport_Aircraft" ImageName="Action_Workflow_ShowWorkflowInstances" />
+    <Class Name="AirPort.Module.BusinessObjects.Galaxy_db.com_Pilot_Aircraft" ImageName="Action_Workflow_ShowWorkflowInstances" Caption="com_Pilot_Aircraft" />
+    <Class Name="AirPort.Module.BusinessObjects.Galaxy_db.rb_Aircraft" ImageName="BO_Appearance" Caption="Aircraft" />
+    <Class Name="AirPort.Module.BusinessObjects.Galaxy_db.rb_Airport" Caption="Airport" ImageName="BO_Organization" />
+    <Class Name="AirPort.Module.BusinessObjects.Galaxy_db.rb_Pilot" Caption="Pilot" />
+  </BOModel>
+  <SchemaModules>
+    <SchemaModule Name="SystemModule" Version="17.1.6.0" IsNewNode="True" />
+    <SchemaModule Name="SystemWindowsFormsModule" Version="17.1.6.0" IsNewNode="True" />
+  </SchemaModules>
+</Application>

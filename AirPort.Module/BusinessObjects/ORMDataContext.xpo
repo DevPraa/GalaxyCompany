@@ -23,7 +23,7 @@
             <field Id="3d7667f8-f8db-415c-a697-0c2b2018a424" name="Id" columnType="Int32" key="true" isIdentity="true" persistent="Id" virtualColumnType="Int32" delayedUpdateModifiedOnly="false" customAttributes="Browsable(false)" />
           </generalXpObjectHasFields>
           <generalXpObjectHasFields Id="cf908013-d682-4736-acdb-8c44efed43a7">
-            <field Id="88b6bcc3-43d0-4fcf-bc82-e5929366ea35" name="Name" persistent="Name" virtualColumnType="String" delayedUpdateModifiedOnly="false" size="420" customAttributes="DevExpress.Persistent.Validation.RuleRequiredField" />
+            <field Id="88b6bcc3-43d0-4fcf-bc82-e5929366ea35" name="Name" persistent="Name" virtualColumnType="String" delayedUpdateModifiedOnly="false" size="199" customAttributes="DevExpress.Persistent.Validation.RuleRequiredField" />
           </generalXpObjectHasFields>
         </fields>
         <saTargets>

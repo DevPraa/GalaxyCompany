@@ -150,7 +150,7 @@
     <userCommentShape Id="d9f024e3-d059-4a5a-a76e-912d00388be7" absoluteBounds="8.5, 1.375, 3.5, 0.625">
       <userCommentMoniker Id="6fdae7ac-ac3e-40aa-b1c6-418a23717746" />
     </userCommentShape>
-    <userCommentConnector Id="5da1b406-e4f1-428f-9607-f62a4eead643" edgePoints="[(9.625 : 2); (9.625 : 2.75)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+    <userCommentConnector Id="5da1b406-e4f1-428f-9607-f62a4eead643" edgePoints="[(9.625 : 2); (9.625 : 2.75)]" fixedFrom="NotFixed" fixedTo="NotFixed">
       <userCommentReferencesGeneralXpObjectsMoniker Id="aa7dfb6b-7453-4d9b-b09a-0de9a654a6ba" />
       <nodes>
         <userCommentShapeMoniker Id="d9f024e3-d059-4a5a-a76e-912d00388be7" />
