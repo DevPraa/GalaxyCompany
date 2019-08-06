@@ -1,5 +1,18 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Application>
+  <ActionDesign>
+    <Actions>
+      <Action Id="DGC_Generate_Action_Id" ImageName="Action_CreateDashboard" Caption="Generate Data" />
+    </Actions>
+    <ActionToContainerMapping>
+      <ActionContainer Id="Tools">
+        <ActionLink ActionId="DGC_Generate_Action_Id" IsNewNode="True" />
+      </ActionContainer>
+      <ActionContainer Id="Unspecified">
+        <ActionLink ActionId="DGC_Generate_Action_Id" Removed="True" />
+      </ActionContainer>
+    </ActionToContainerMapping>
+  </ActionDesign>
   <BOModel>
     <Class Name="AirPort.Module.BusinessObjects.Galaxy_db.com_Airport_Aircraft" Caption="com_Airport_Aircraft" ImageName="Action_Workflow_ShowWorkflowInstances" />
     <Class Name="AirPort.Module.BusinessObjects.Galaxy_db.com_Pilot_Aircraft" ImageName="Action_Workflow_ShowWorkflowInstances" Caption="com_Pilot_Aircraft" />
