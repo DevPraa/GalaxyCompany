@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using AirPort.Module.BusinessObjects.Galaxy_db;
+using AirPort.Module.Repositories;
 using DevExpress.Data.Filtering;
 using DevExpress.ExpressApp;
 using DevExpress.ExpressApp.Actions;
@@ -13,6 +15,7 @@ using DevExpress.ExpressApp.Templates;
 using DevExpress.ExpressApp.Utils;
 using DevExpress.Persistent.Base;
 using DevExpress.Persistent.Validation;
+using DevExpress.Xpo.DB;
 
 namespace AirPort.Module.Controllers
 {
@@ -37,7 +40,10 @@ namespace AirPort.Module.Controllers
 
         private void DGC_Generate_Action_Execute(object sender, SimpleActionExecuteEventArgs e)
         {
-            
+            TestDataRepository testData = new TestDataRepository(ConnectionHelper.GetDataLayer(AutoCreateOption.None));
+            testData.AddPilots();
+            testData.AddAirports();
+            testData.AddAircrafts();
         }
     }
 }

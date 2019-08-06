@@ -1,0 +1,153 @@
+Airbus A220-100
+Airbus A220-300
+Airbus A300
+Airbus A310
+Airbus A318
+Airbus A319
+Airbus A319neo
+Airbus A320
+Airbus A320neo
+Airbus A321
+Airbus A321neo
+Airbus A330-200
+Airbus A330-300
+Airbus A330-800neo
+Airbus A330-900neo
+Airbus A340-200
+Airbus A340-300
+Airbus A340-500
+Airbus A340-600
+Airbus A350-900
+Airbus A350-1000
+Airbus A380
+Boeing 707
+Boeing 717
+Boeing 727
+Boeing 737-200
+Boeing 737-300
+Boeing 737-400
+Boeing 737-500
+Boeing 737-600
+Boeing 737-700
+Boeing 737-800
+Boeing 737-900
+Boeing 737 MAX 7
+Boeing 737 MAX 8
+Boeing 737 MAX 9
+Boeing 737 MAX 10
+Boeing 747-100
+Boeing 747-200
+Boeing 747-300
+Boeing 747-400
+Boeing 747-8
+Boeing 757-200
+Boeing 757-300
+Boeing 767-200
+Boeing 767-300
+Boeing 767-400
+Boeing 777-200
+Boeing 777-300
+Boeing 777-8
+Boeing 777-9
+Boeing 787-8
+Boeing 787-9
+Boeing 787-10
+Ан 2/3
+Ан 24
+Ан 26
+Ан 28
+Ан 38
+Ан 74
+Ан 140
+Ан 148
+Ан 158
+ATR 42
+ATR 72
+Comac ARJ21
+Comac C919
+Harbin Y-12
+Xian MA60
+BAC 1-11
+BAe 748
+BAe ATP
+BAe Avro RJ-70/85/100
+BAe Jetstream 31/32
+BAe Jetstream 41
+DHC-2 Beaver
+DHC-3 Otter
+DHC-6 Twin Otter
+Bombardier CRJ-100/200
+Bombardier CRJ-700
+Bombardier CRJ-705
+Bombardier CRJ-900
+Bombardier CRJ-1000
+Bombardier CS100
+Bombardier CS300
+Bombardier Dash 7
+Bombardier Dash 8 Q100/200
+Bombardier Dash 8 Q300
+Bombardier Dash 8 Q400
+Beechcraft King Air
+Beechcraft 99
+Beechcraft 1900
+Britten-Norman BN-2 Islander
+Britten-Norman Trislander
+Cessna Caravan
+Cessna 402
+Cessna 404 Titan
+Cessna 421 Golden Eagle
+Dornier 228
+Dornier 328
+Dornier 328Jet
+Embraer EMB-110 Bandeirante
+Embraer EMB-120 Brasilia
+Embraer ERJ-135
+Embraer ERJ-140
+Embraer ERJ-145
+Embraer 170
+Embraer 175
+Embraer 190
+Embraer 195
+Embraer 195
+Embraer Е175-Е2
+Embraer Е190-Е2
+Embraer Е195-Е2
+Fairchild Metro
+Fokker F27
+Fokker F28
+Fokker 50
+Fokker 70
+Fokker 100
+Ил 18
+Ил 62
+Ил 86
+Ил 96
+Ил 114
+Indonesian Aerospace CN-235
+Indonesian Aerospace NC-212
+Lockheed L-1011 TriStar
+Let L-410
+Douglas DC-9
+Douglas DC-10
+McDonnell Douglas MD-11
+McDonnell Douglas MD-80
+McDonnell Douglas MD-90
+NAMC YS-11
+Pilatus PC-6 Porter
+Pilatus PC-12
+Piper PA-31 Navajo Chieftain
+Saab 340
+Saab 2000
+Shorts 330
+Shorts 360
+Су 80
+Суперджет 100
+Ту 134
+Ту 154
+Ту 204-100
+Ту 204-300
+Ту 214
+Ту 334
+Як 40
+Як 42
+Як 242 (МС-21)
