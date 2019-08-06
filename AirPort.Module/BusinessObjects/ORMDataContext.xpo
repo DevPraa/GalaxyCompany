@@ -1,0 +1,183 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<dataBaseObjectModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="1544c333-f3e1-4074-92ea-8f43c640856c" dbName="Galaxy_db" connectionInfo="77u/PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjxEZXZFeHByZXNzWHBvR2VuZXJhdG9yU2V0dGluZ3MgeG1sbnM6eHNpPSJodHRwOi8vd3d3LnczLm9yZy8yMDAxL1hNTFNjaGVtYS1pbnN0YW5jZSIgeG1sbnM6eHNkPSJodHRwOi8vd3d3LnczLm9yZy8yMDAxL1hNTFNjaGVtYSIgcHJvdmlkZXJLZXk9Ik1TU3FsU2VydmVyIj4NCiAgPHBhcmFtZXRlcj4NCiAgICA8Q29ubmVjdGlvblBhZ2VTZXR0aW5nc0l0ZW0gbmFtZT0ic2VydmVyIiB2YWx1ZT0iLlxTUUxFWFBSRVNTIiAvPg0KICAgIDxDb25uZWN0aW9uUGFnZVNldHRpbmdzSXRlbSBuYW1lPSJkYXRhYmFzZSIgdmFsdWU9IkdhbGF4eV9kYiIgLz4NCiAgICA8Q29ubmVjdGlvblBhZ2VTZXR0aW5nc0l0ZW0gbmFtZT0idXNlSW50ZWdyYXRlZFNlY3VyaXR5IiB2YWx1ZT0iVHJ1ZSIgLz4NCiAgICA8Q29ubmVjdGlvblBhZ2VTZXR0aW5nc0l0ZW0gbmFtZT0idXNlcmlkIiB2YWx1ZT0iIiAvPg0KICAgIDxDb25uZWN0aW9uUGFnZVNldHRpbmdzSXRlbSBuYW1lPSJwYXNzd29yZCIgdmFsdWU9IiIgLz4NCiAgICA8Q29ubmVjdGlvblBhZ2VTZXR0aW5nc0l0ZW0gbmFtZT0icmVhZCBvbmx5IiB2YWx1ZT0iMSIgLz4NCiAgICA8Q29ubmVjdGlvblBhZ2VTZXR0aW5nc0l0ZW0gbmFtZT0iZ2VuZXJhdGVDb25uZWN0aW9uSGVscGVyIiB2YWx1ZT0idHJ1ZSIgLz4NCiAgPC9wYXJhbWV0ZXI+DQo8L0RldkV4cHJlc3NYcG9HZW5lcmF0b3JTZXR0aW5ncz4=" namespace="AirPort.Module.BusinessObjects.Galaxy_db" connectionString="XpoProvider=MSSqlServer;data source=.\SQLEXPRESS;integrated security=SSPI;initial catalog=Galaxy_db" dataBaseShemaInfo="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" generateConnectionHelper="true" generateStoredProcedures="false" fieldNameCase="Unchanged" fieldNamePrefix="_" generateDefaultConstructors="false" xmlns="http://schemas.microsoft.com/dsltools/ORMDataModel">
+  <classes>
+    <dataBaseObjectModelHasClasses Id="c46bc039-ac5c-40da-b5c9-4c72ef60ca9a">
+      <xpObject Id="8eaba79b-9b48-4ca8-802c-3310c009cd9e" name="com_Airport_Aircraft" baseClass="XPLiteObject" userFileName="com_Airport_Pilot_Aircraft" designerFileName="com_Airport_Pilot_Aircraft.Designer" className="com_Airport_Aircraft" virtualBaseClass="XPLiteObject" persistent="com_Airport_Pilot_Aircraft" virtualName="com_Airport_Aircraft">
+        <fields>
+          <generalXpObjectHasFields Id="0fcc711b-de4d-47b7-9271-e0f9a9741b39">
+            <field Id="3df4c6a7-d941-4a85-b1de-41df03e113d0" name="Id" columnType="Int32" key="true" isIdentity="true" persistent="Id" virtualColumnType="Int32" delayedUpdateModifiedOnly="false" customAttributes="Browsable(false)" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="d27d5bcf-d671-4272-a138-281a6ea89412">
+            <field Id="cd580f6f-fd5c-4e95-9d94-07af541b24ae" name="Id_Airport" columnType="Int32" persistent="Id_Airport" virtualColumnType="rb_Airport" logicalType="rb_Airport" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="55429048-ef94-4818-b778-054abb18442e">
+            <field Id="c4c0f302-a33c-4a29-98ec-94a6f6755266" name="Id_Aircraft" columnType="Int32" persistent="Id_Aircraft" virtualColumnType="rb_Aircraft" logicalType="rb_Aircraft" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+        </fields>
+      </xpObject>
+    </dataBaseObjectModelHasClasses>
+    <dataBaseObjectModelHasClasses Id="be37b75c-ad83-482d-a84e-eb88cf750d5b">
+      <xpObject Id="3798128c-5114-4c1f-9a7c-925cc6df9b76" name="rb_Aircraft" baseClass="XPLiteObject" userFileName="rb_Aircraft" designerFileName="rb_Aircraft.Designer" className="rb_Aircraft" virtualBaseClass="XPLiteObject" persistent="rb_Aircraft" virtualName="rb_Aircraft">
+        <fields>
+          <generalXpObjectHasFields Id="7d209fcd-d456-4db1-8fda-5fc3d364f8cf">
+            <field Id="3d7667f8-f8db-415c-a697-0c2b2018a424" name="Id" columnType="Int32" key="true" isIdentity="true" persistent="Id" virtualColumnType="Int32" delayedUpdateModifiedOnly="false" customAttributes="Browsable(false)" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="cf908013-d682-4736-acdb-8c44efed43a7">
+            <field Id="88b6bcc3-43d0-4fcf-bc82-e5929366ea35" name="Name" persistent="Name" virtualColumnType="String" delayedUpdateModifiedOnly="false" size="420" customAttributes="DevExpress.Persistent.Validation.RuleRequiredField" />
+          </generalXpObjectHasFields>
+        </fields>
+        <saTargets>
+          <simpleAssociation Id="be440d53-da81-439a-9ca5-69658c842ef0" sourceCollectionName="com_Airport_Pilot_Aircrafts" name="com_Airport_Pilot_AircraftReferencesrb_Aircraft" targetFieldName="Id_Aircraft">
+            <xpObjectMoniker Id="8eaba79b-9b48-4ca8-802c-3310c009cd9e" />
+          </simpleAssociation>
+          <simpleAssociation Id="1342e12b-24d7-479d-a1ae-6f03a6196b66" sourceCollectionName="com_Pilot_Aircrafts" name="com_Pilot_AircraftReferencesrb_Aircraft" targetFieldName="Id_Aircraft">
+            <xpObjectMoniker Id="71cd5abf-e93d-460c-9b78-e7dbf38bbf0c" />
+          </simpleAssociation>
+        </saTargets>
+        <collectionFields>
+          <xpObjectHasCollectionFields Id="3187f091-152a-4e1a-bee6-a6e53afb6c9c">
+            <collectionField Id="e6b46ceb-8344-403a-9106-4cb80b55bbb8" name="com_Airport_Pilot_Aircrafts" />
+          </xpObjectHasCollectionFields>
+          <xpObjectHasCollectionFields Id="491c5d8a-40ca-47fc-84c4-53bfe88b43b7">
+            <collectionField Id="155721f4-cc46-46df-a550-e5727832e328" name="com_Pilot_Aircrafts" />
+          </xpObjectHasCollectionFields>
+        </collectionFields>
+      </xpObject>
+    </dataBaseObjectModelHasClasses>
+    <dataBaseObjectModelHasClasses Id="ff022a0e-0e77-4137-b7ca-6007310417ff">
+      <xpObject Id="a55abe40-134a-4254-8bc3-8ba57393c696" name="rb_Airport" baseClass="XPLiteObject" userFileName="rb_Airport" designerFileName="rb_Airport.Designer" className="rb_Airport" virtualBaseClass="XPLiteObject" persistent="rb_Airport" virtualName="rb_Airport">
+        <fields>
+          <generalXpObjectHasFields Id="d4f805f1-3bc7-4086-a043-9c762604f771">
+            <field Id="647bfdf4-8390-4514-8cf9-f0278d7d4377" name="Id" columnType="Int32" key="true" isIdentity="true" persistent="Id" virtualColumnType="Int32" delayedUpdateModifiedOnly="false" customAttributes="Browsable(false)" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="4b8ba8ea-ccda-4976-abe6-2a3e70b61889">
+            <field Id="43f44f04-650b-43cb-8323-bc8b6524287d" name="Name" persistent="Name" virtualColumnType="String" delayedUpdateModifiedOnly="false" customAttributes="DevExpress.Persistent.Validation.RuleRequiredField" />
+          </generalXpObjectHasFields>
+        </fields>
+        <saTargets>
+          <simpleAssociation Id="8ee314d8-e9b1-42dd-8e36-aad55184c07f" sourceCollectionName="com_Airport_Pilot_Aircrafts" name="com_Airport_Pilot_AircraftReferencesrb_Airport" targetFieldName="Id_Airport">
+            <xpObjectMoniker Id="8eaba79b-9b48-4ca8-802c-3310c009cd9e" />
+          </simpleAssociation>
+          <simpleAssociation Id="aba534be-4e3a-46ae-a661-e8f43a631024" sourceCollectionName="rb_Pilots" name="rb_PilotReferencesrb_Airport" targetFieldName="Id_Airport">
+            <xpObjectMoniker Id="06607fcd-b27b-4e22-8221-7abd84f9e20e" />
+          </simpleAssociation>
+        </saTargets>
+        <collectionFields>
+          <xpObjectHasCollectionFields Id="9bec1722-b95c-4b01-a1ac-2e524f83894f">
+            <collectionField Id="a85140a4-6c29-4fd7-b302-6e0e5b429ba9" name="com_Airport_Pilot_Aircrafts" />
+          </xpObjectHasCollectionFields>
+          <xpObjectHasCollectionFields Id="6a6ca072-ebbd-4836-a7d1-9579bf40ccd4">
+            <collectionField Id="834422ff-b939-4366-854e-e33ef7c2811d" name="rb_Pilots" />
+          </xpObjectHasCollectionFields>
+        </collectionFields>
+      </xpObject>
+    </dataBaseObjectModelHasClasses>
+    <dataBaseObjectModelHasClasses Id="99308f2c-3909-426c-a731-3029ed5162b3">
+      <xpObject Id="06607fcd-b27b-4e22-8221-7abd84f9e20e" name="rb_Pilot" baseClass="XPLiteObject" userFileName="rb_Pilot" designerFileName="rb_Pilot.Designer" className="rb_Pilot" virtualBaseClass="XPLiteObject" persistent="rb_Pilot" virtualName="rb_Pilot">
+        <fields>
+          <generalXpObjectHasFields Id="fbb88e5d-2ae2-427a-9282-b30bee4034f1">
+            <field Id="0067d157-eb01-4c7a-837a-a8bab3d74fb4" name="Id" columnType="Int32" key="true" isIdentity="true" persistent="Id" virtualColumnType="Int32" delayedUpdateModifiedOnly="false" customAttributes="Browsable(false)" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="bd403d13-bee6-4ff8-b1bd-b81433f44293">
+            <field Id="82d3b9b6-454d-4c6a-a53c-f607298df28e" name="FirstName" persistent="FirstName" virtualColumnType="String" delayedUpdateModifiedOnly="false" customAttributes="DevExpress.Persistent.Validation.RuleRequiredField" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="58670908-ea2a-40e1-8c5c-2c89474a1a1c">
+            <field Id="c9f7fa8a-2dbc-4e8b-a761-a7a617c58705" name="LastName" persistent="LastName" virtualColumnType="String" delayedUpdateModifiedOnly="false" customAttributes="DevExpress.Persistent.Validation.RuleRequiredField" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="7e65a8f1-0e69-4084-be26-f43971c8e1b8">
+            <persistentAlias Id="d1f6801a-85ad-4119-876a-b035736c2d2a" name="FullName" virtualColumnType="String" expression="[LastName] + ' ' + [FirstName]" displayName="Full Name" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="61e90bad-1f06-44ba-8c10-957fb83a72ad">
+            <field Id="0fab3452-abd2-4079-a932-23c3606f09d9" name="Id_Airport" columnType="Int32" persistent="Id_Airport" virtualColumnType="rb_Airport" logicalType="rb_Airport" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+        </fields>
+        <saTargets>
+          <simpleAssociation Id="f8824079-df83-4f86-aae4-5045da7449de" sourceCollectionName="com_Pilot_Aircrafts" name="com_Pilot_AircraftReferencesrb_Pilot" targetFieldName="Id_Pilot">
+            <xpObjectMoniker Id="71cd5abf-e93d-460c-9b78-e7dbf38bbf0c" />
+          </simpleAssociation>
+        </saTargets>
+        <collectionFields>
+          <xpObjectHasCollectionFields Id="9ccca18b-0c4f-43a2-b5e4-24c66c4d83cd">
+            <collectionField Id="5edce58b-aada-4848-819a-4f30f828777c" name="com_Pilot_Aircrafts" />
+          </xpObjectHasCollectionFields>
+        </collectionFields>
+      </xpObject>
+    </dataBaseObjectModelHasClasses>
+    <dataBaseObjectModelHasClasses Id="ab3f9580-b670-4f01-a063-a880cbfb36c9">
+      <xpObject Id="71cd5abf-e93d-460c-9b78-e7dbf38bbf0c" name="com_Pilot_Aircraft" baseClass="XPLiteObject" userFileName="com_Pilot_Aircraft" designerFileName="com_Pilot_Aircraft.Designer" className="com_Pilot_Aircraft" virtualBaseClass="XPLiteObject" virtualName="com_Pilot_Aircraft">
+        <fields>
+          <generalXpObjectHasFields Id="b686f412-adc5-4584-a819-7ab1ea5dfc26">
+            <field Id="3c001341-3def-4e44-a151-bdf3b4bcbd0b" name="Id" columnType="Int32" key="true" isIdentity="true" virtualColumnType="Int32" delayedUpdateModifiedOnly="false" customAttributes="Browsable(false)" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="d32a9a2d-6ab0-4eda-ac14-78fcdd836bf6">
+            <field Id="7e708874-d3f7-4bae-a2ae-8a3eefa37488" name="Id_Pilot" virtualColumnType="rb_Pilot" logicalType="rb_Pilot" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="e7656ab7-9f46-4ff8-94cb-03b9ab5e1a56">
+            <field Id="1f61c78f-6437-405e-b48d-06115e0c15f2" name="Id_Aircraft" virtualColumnType="rb_Aircraft" logicalType="rb_Aircraft" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+        </fields>
+        <indexes>
+          <xpObjectHasIndexes Id="e3847bbd-ae14-45a5-bee3-0dfde39fff7f">
+            <index Id="d291e78e-04e4-44f9-bf17-85fff1af1074" name="rb_Aircraft_rb_Pilot_Unique" unique="true">
+              <fieldsInIndex>
+                <indexReferencesFields Id="f94ce17c-b45e-4fb1-a11e-478032b0a5ca">
+                  <fieldMoniker Id="7e708874-d3f7-4bae-a2ae-8a3eefa37488" />
+                </indexReferencesFields>
+                <indexReferencesFields Id="c2f88a96-d5a2-449f-9323-f1d6d08a31d9">
+                  <fieldMoniker Id="1f61c78f-6437-405e-b48d-06115e0c15f2" />
+                </indexReferencesFields>
+              </fieldsInIndex>
+            </index>
+          </xpObjectHasIndexes>
+        </indexes>
+      </xpObject>
+    </dataBaseObjectModelHasClasses>
+  </classes>
+  <userComments>
+    <dataBaseObjectModelHasUserComments Id="bd0e58be-f4ab-4c22-b029-7b9da3b2b94d">
+      <userComment Id="5b8feca4-e179-4e51-abbf-e75d3d51f0ef" text="Справочник моделей самолетов">
+        <generalXpObjects>
+          <userCommentReferencesGeneralXpObjects Id="07102a0d-d9ba-4b3d-b1dc-b48e2fb46ea0">
+            <xpObjectMoniker Id="3798128c-5114-4c1f-9a7c-925cc6df9b76" />
+          </userCommentReferencesGeneralXpObjects>
+        </generalXpObjects>
+      </userComment>
+    </dataBaseObjectModelHasUserComments>
+    <dataBaseObjectModelHasUserComments Id="1fe91330-8e4a-4ede-aa92-1750d2dd4c1f">
+      <userComment Id="8be933eb-11b7-43a4-b4d4-1e1e21796cce" text="Таблица для связи моделей самолетов и Аэропортов. Уникального индекса нет для Id_Airport и Id_Aircraft., потому что у одного аэропорта может быть несколько одинаковых самолетов, так же как и одна модель самолета может находиться в разных аэропортах">
+        <generalXpObjects>
+          <userCommentReferencesGeneralXpObjects Id="236b56fc-024c-45fc-9b30-e10524382577">
+            <xpObjectMoniker Id="8eaba79b-9b48-4ca8-802c-3310c009cd9e" />
+          </userCommentReferencesGeneralXpObjects>
+        </generalXpObjects>
+      </userComment>
+    </dataBaseObjectModelHasUserComments>
+    <dataBaseObjectModelHasUserComments Id="9eb8525e-ff20-4fe1-9333-74ebe3705f01">
+      <userComment Id="e5296c4e-0a96-4434-8231-9ab3d92fd060" text="Справочник Аэропортов">
+        <generalXpObjects>
+          <userCommentReferencesGeneralXpObjects Id="b70f8cb7-601d-44ec-a3b7-d07418912049">
+            <xpObjectMoniker Id="a55abe40-134a-4254-8bc3-8ba57393c696" />
+          </userCommentReferencesGeneralXpObjects>
+        </generalXpObjects>
+      </userComment>
+    </dataBaseObjectModelHasUserComments>
+    <dataBaseObjectModelHasUserComments Id="9a6271e1-0af3-4796-bb52-d520de6f1daf">
+      <userComment Id="f1b42702-fb08-4542-85a8-e69e29163fde" text="Справочник Пилотов">
+        <generalXpObjects>
+          <userCommentReferencesGeneralXpObjects Id="a4e8db3f-f581-49c7-a6c2-ef5fef911674">
+            <xpObjectMoniker Id="06607fcd-b27b-4e22-8221-7abd84f9e20e" />
+          </userCommentReferencesGeneralXpObjects>
+        </generalXpObjects>
+      </userComment>
+    </dataBaseObjectModelHasUserComments>
+    <dataBaseObjectModelHasUserComments Id="a15c0e17-ae30-4af8-9700-cec44d171424">
+      <userComment Id="6fdae7ac-ac3e-40aa-b1c6-418a23717746" text="Таблица для связи пилотов и моделей самолетов. Уникальный индекс создан для того, чтобы нельзя было добавить пилоту 2 одинаковых самолета, т.к это не имеет смысла.">
+        <generalXpObjects>
+          <userCommentReferencesGeneralXpObjects Id="aa7dfb6b-7453-4d9b-b09a-0de9a654a6ba">
+            <xpObjectMoniker Id="71cd5abf-e93d-460c-9b78-e7dbf38bbf0c" />
+          </userCommentReferencesGeneralXpObjects>
+        </generalXpObjects>
+      </userComment>
+    </dataBaseObjectModelHasUserComments>
+  </userComments>
+</dataBaseObjectModel>

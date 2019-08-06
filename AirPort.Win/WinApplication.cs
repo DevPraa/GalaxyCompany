@@ -60,10 +60,10 @@ namespace AirPort.Win {
 
         private void AirPortWindowsFormsApplication_CreateCustomTemplate(object sender, CreateCustomTemplateEventArgs e)
         {
-            if (e.Template == )
-            {
+            //if (e.Template == )
+            //{
 
-            }
+            //}
         }
     }
 }

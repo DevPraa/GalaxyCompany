@@ -95,6 +95,27 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BusinessObjects\ORMDataContextCode\com_Airport_Pilot_Aircraft.cs" />
+    <Compile Include="BusinessObjects\ORMDataContextCode\com_Airport_Pilot_Aircraft.Designer.cs">
+      <DependentUpon>com_Airport_Pilot_Aircraft.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BusinessObjects\ORMDataContextCode\com_Pilot_Aircraft.cs" />
+    <Compile Include="BusinessObjects\ORMDataContextCode\com_Pilot_Aircraft.Designer.cs">
+      <DependentUpon>com_Pilot_Aircraft.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BusinessObjects\ORMDataContextCode\ConnectionHelper.cs" />
+    <Compile Include="BusinessObjects\ORMDataContextCode\rb_Aircraft.cs" />
+    <Compile Include="BusinessObjects\ORMDataContextCode\rb_Aircraft.Designer.cs">
+      <DependentUpon>rb_Aircraft.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BusinessObjects\ORMDataContextCode\rb_Airport.cs" />
+    <Compile Include="BusinessObjects\ORMDataContextCode\rb_Airport.Designer.cs">
+      <DependentUpon>rb_Airport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BusinessObjects\ORMDataContextCode\rb_Pilot.cs" />
+    <Compile Include="BusinessObjects\ORMDataContextCode\rb_Pilot.Designer.cs">
+      <DependentUpon>rb_Pilot.cs</DependentUpon>
+    </Compile>
     <Compile Include="DatabaseUpdate\Updater.cs" />
     <Compile Include="Module.cs">
       <SubType>Component</SubType>
@@ -113,6 +134,10 @@
     <EmbeddedResource Include="Properties\licenses.licx" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="BusinessObjects\ORMDataContext.xpo" />
+    <None Include="BusinessObjects\ORMDataContext.xpo.diagram">
+      <DependentUpon>ORMDataContext.xpo</DependentUpon>
+    </None>
     <None Include="DatabaseUpdate\ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
