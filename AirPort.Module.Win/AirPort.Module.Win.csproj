@@ -153,6 +153,12 @@
     <Compile Include="Controllers\AircraftViewController.Designer.cs">
       <DependentUpon>AircraftViewController.cs</DependentUpon>
     </Compile>
+    <Compile Include="Controllers\PilotViewController.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controllers\PilotViewController.Designer.cs">
+      <DependentUpon>PilotViewController.cs</DependentUpon>
+    </Compile>
     <Compile Include="WinModule.cs">
       <SubType>Component</SubType>
     </Compile>

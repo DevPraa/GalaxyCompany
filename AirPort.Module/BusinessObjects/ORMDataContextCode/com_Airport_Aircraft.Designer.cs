@@ -14,7 +14,6 @@ using System.ComponentModel;
 namespace AirPort.Module.BusinessObjects.Galaxy_db
 {
 
-    [Persistent(@"com_Airport_Aircraft")]
     public partial class com_Airport_Aircraft : XPLiteObject
     {
         int _Id;
