@@ -11,6 +11,9 @@ using DevExpress.Xpo;
 using DevExpress.Data.Filtering;
 using System.Collections.Generic;
 using System.ComponentModel;
+using DevExpress.ExpressApp.ConditionalAppearance;
+using System.Drawing;
+
 namespace AirPort.Module.BusinessObjects.Galaxy_db
 {
 
@@ -27,6 +30,7 @@ namespace AirPort.Module.BusinessObjects.Galaxy_db
         string _Name;
         [Size(199)]
         [DevExpress.Persistent.Validation.RuleRequiredField]
+        [Appearance("Completed1", TargetItems = "Name", Criteria = "Name like '%A%'", FontStyle = FontStyle.Bold, FontColor = "ForestGreen")]
         public string Name
         {
             get { return _Name; }
