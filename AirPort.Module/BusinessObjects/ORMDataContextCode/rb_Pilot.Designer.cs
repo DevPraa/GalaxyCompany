@@ -52,12 +52,13 @@ namespace AirPort.Module.BusinessObjects.Galaxy_db
             set { SetPropertyValue<rb_Airport>("Id_Airport", ref _Id_Airport, value); }
         }
 
+        [PersistentAlias("com_Pilot_Aircrafts.Count")]
         public int AirCraftCount
         {
-            get { return com_Pilot_Aircrafts?.Count ?? 0; }
+            get { return Convert.ToInt32(EvaluateAlias("AirCraftCount")); }
         }
 
-        [Association(@"com_Pilot_AircraftReferencesrb_Pilot")]
+        [Association(@"com_Pilot_AircraftReferencesrb_Pilot"), Aggregated]
         public XPCollection<com_Pilot_Aircraft> com_Pilot_Aircrafts { get { return GetCollection<com_Pilot_Aircraft>("com_Pilot_Aircrafts"); } }
     }
 
