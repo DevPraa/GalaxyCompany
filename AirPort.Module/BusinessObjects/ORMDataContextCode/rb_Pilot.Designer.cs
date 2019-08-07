@@ -51,6 +51,12 @@ namespace AirPort.Module.BusinessObjects.Galaxy_db
             get { return _Id_Airport; }
             set { SetPropertyValue<rb_Airport>("Id_Airport", ref _Id_Airport, value); }
         }
+
+        public int AirCraftCount
+        {
+            get { return com_Pilot_Aircrafts?.Count ?? 0; }
+        }
+
         [Association(@"com_Pilot_AircraftReferencesrb_Pilot")]
         public XPCollection<com_Pilot_Aircraft> com_Pilot_Aircrafts { get { return GetCollection<com_Pilot_Aircraft>("com_Pilot_Aircrafts"); } }
     }
