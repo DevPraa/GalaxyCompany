@@ -26,13 +26,17 @@ namespace AirPort.Module.Win.Controllers
         public AircraftViewController()
         {
             InitializeComponent();
-            // Target required Views (via the TargetXXX properties) and create their Actions.
+            // Target required Views (via the TargetXXX properties) and create their Actions.            
         }
+
         protected override void OnActivated()
         {
             base.OnActivated();
             // Perform various tasks depending on the target View.
+            this.Application.Model.Options.UseServerMode = true;
+            //var t = Application.Model.Options.UseServerMode;
         }
+
         protected override void OnViewControlsCreated()
         {
             base.OnViewControlsCreated();
@@ -53,6 +57,7 @@ namespace AirPort.Module.Win.Controllers
                 };
             }
         }
+
         protected override void OnDeactivated()
         {
             // Unsubscribe from previously subscribed events and release other references and resources.
