@@ -34,7 +34,9 @@ namespace AirPort.Module.Win.Controllers
         {
             base.OnActivated();
             // Perform various tasks depending on the target View.
-            this.Application.Model.Options.UseServerMode = true;
+            //this.Application.Model.Options.UseServerMode = true;
+            //var t = View.Model.Application.Options.DataAccessMode;
+            //var tt = Application.Model.Options.UseServerMode;
 
         }
         protected override void OnViewControlsCreated()

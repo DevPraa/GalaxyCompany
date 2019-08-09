@@ -24,4 +24,21 @@
     <SchemaModule Name="SystemModule" Version="17.1.6.0" IsNewNode="True" />
     <SchemaModule Name="SystemWindowsFormsModule" Version="17.1.6.0" IsNewNode="True" />
   </SchemaModules>
+  <Views>
+    <ListView Id="com_Airport_Aircraft_ListView" DataAccessMode="Server" />
+    <ListView Id="com_Airport_Aircraft_LookupListView" DataAccessMode="Server" />
+    <ListView Id="com_Pilot_Aircraft_ListView" DataAccessMode="Server" />
+    <ListView Id="com_Pilot_Aircraft_LookupListView" DataAccessMode="Server" />
+    <ListView Id="rb_Aircraft_com_Airport_Aircrafts_ListView" DataAccessMode="Server" />
+    <ListView Id="rb_Aircraft_com_Pilot_Aircrafts_ListView" DataAccessMode="Server" />
+    <ListView Id="rb_Aircraft_ListView" DataAccessMode="Server" />
+    <ListView Id="rb_Aircraft_LookupListView" DataAccessMode="Server" />
+    <ListView Id="rb_Airport_com_Airport_Aircrafts_ListView" DataAccessMode="Server" />
+    <ListView Id="rb_Airport_ListView" DataAccessMode="Server" />
+    <ListView Id="rb_Airport_LookupListView" DataAccessMode="Server" />
+    <ListView Id="rb_Airport_rb_Pilots_ListView" DataAccessMode="Server" />
+    <ListView Id="rb_Pilot_com_Pilot_Aircrafts_ListView" DataAccessMode="Server" />
+    <ListView Id="rb_Pilot_ListView" DataAccessMode="Server" />
+    <ListView Id="rb_Pilot_LookupListView" DataAccessMode="Server" />
+  </Views>
 </Application>
