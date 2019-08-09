@@ -41,9 +41,7 @@ namespace AirPort.Module.Controllers
         private void DGC_Generate_Action_Execute(object sender, SimpleActionExecuteEventArgs e)
         {
             TestDataRepository testData = new TestDataRepository(ConnectionHelper.GetDataLayer(AutoCreateOption.None));
-            testData.AddPilots();
-            testData.AddAirports();
-            testData.AddAircrafts();
+            testData.GenerateData();
         }
     }
 }
