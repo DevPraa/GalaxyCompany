@@ -3,6 +3,7 @@ using System.Configuration;
 using System.Windows.Forms;
 
 using DevExpress.ExpressApp;
+using DevExpress.ExpressApp.ReportsV2;
 using DevExpress.ExpressApp.Security;
 using DevExpress.ExpressApp.Win;
 using DevExpress.Persistent.Base;
@@ -43,6 +44,7 @@ namespace AirPort.Win {
                 //winApplication.Setup();
                 winApplication.Setup("AirPort", winApplication.ConnectionString,
          ConfigurationManager.AppSettings["Modules"].Split(';'));
+                PrintSelectionBaseController.ShowInReportActionEnableModeDefault = PrintSelectionBaseController.ActionEnabledMode.None;
                 winApplication.Start();
             }
             catch(Exception e) {

@@ -15,6 +15,9 @@ using DevExpress.ExpressApp.Model.Core;
 using DevExpress.ExpressApp.Model.DomainLogics;
 using DevExpress.ExpressApp.Model.NodeGenerators;
 using DevExpress.ExpressApp.Xpo;
+using DevExpress.ExpressApp.ReportsV2;
+using AirPort.Module.Reports;
+using AirPort.Module.BusinessObjects.Galaxy_db;
 
 namespace AirPort.Module {
     // For more typical usage scenarios, be sure to check out https://documentation.devexpress.com/eXpressAppFramework/clsDevExpressExpressAppModuleBasetopic.aspx.
@@ -25,7 +28,9 @@ namespace AirPort.Module {
         }
         public override IEnumerable<ModuleUpdater> GetModuleUpdaters(IObjectSpace objectSpace, Version versionFromDB) {
             ModuleUpdater updater = new DatabaseUpdate.Updater(objectSpace, versionFromDB);
-            return new ModuleUpdater[] { updater };
+            PredefinedReportsUpdater reportsUpdater = new PredefinedReportsUpdater(Application, objectSpace, versionFromDB);
+            reportsUpdater.AddPredefinedReport<PilotReport>("Pilot Report",(typeof(rb_Pilot)));
+            return new ModuleUpdater[] { updater,  reportsUpdater};
         }
         public override void Setup(XafApplication application) {
             base.Setup(application);
