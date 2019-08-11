@@ -1,8 +1,14 @@
-﻿<?xml version="1.0" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Application>
   <Options>
     <LayoutManagerOptions RequiredFieldMark="*" />
   </Options>
-  <Views>
-  </Views>
+  <SchemaModules>
+    <SchemaModule Name="SystemModule" Version="17.1.6.0" IsNewNode="True" />
+  </SchemaModules>
+  <Validation>
+    <Rules>
+      <RuleRequiredField Id="CheckIdAirportForPilot" TargetType="AirPort.Module.BusinessObjects.Galaxy_db.rb_Pilot" TargetPropertyName="Id_Airport" TargetContextIDs="Save" IsNewNode="True" />
+    </Rules>
+  </Validation>
 </Application>

@@ -40,7 +40,9 @@ namespace AirPort.Win {
                 winApplication.DatabaseUpdateMode = DatabaseUpdateMode.UpdateDatabaseAlways;
             }
             try {
-                winApplication.Setup();
+                //winApplication.Setup();
+                winApplication.Setup("AirPort", winApplication.ConnectionString,
+         ConfigurationManager.AppSettings["Modules"].Split(';'));
                 winApplication.Start();
             }
             catch(Exception e) {
