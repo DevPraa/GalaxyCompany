@@ -132,6 +132,12 @@
     <Compile Include="Controllers\DataGeneratorController.Designer.cs">
       <DependentUpon>DataGeneratorController.cs</DependentUpon>
     </Compile>
+    <Compile Include="Controllers\PilotViewController.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controllers\PilotViewController.Designer.cs">
+      <DependentUpon>PilotViewController.cs</DependentUpon>
+    </Compile>
     <Compile Include="DatabaseUpdate\Updater.cs" />
     <Compile Include="Module.cs">
       <SubType>Component</SubType>
@@ -152,6 +158,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Controllers\DataGeneratorController.resx">
       <DependentUpon>DataGeneratorController.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controllers\PilotViewController.resx">
+      <DependentUpon>PilotViewController.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Model.DesignedDiffs.xafml" />
     <EmbeddedResource Include="Module.resx">
