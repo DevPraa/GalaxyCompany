@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.ShowReportPilot_Action = new DevExpress.ExpressApp.Actions.SimpleAction();
+            this.simpleReport = new DevExpress.ExpressApp.Actions.SimpleAction();
             // 
             // ShowReportPilot_Action
             // 
@@ -42,15 +43,28 @@
             this.ShowReportPilot_Action.TypeOfView = typeof(DevExpress.ExpressApp.ListView);
             this.ShowReportPilot_Action.Execute += new DevExpress.ExpressApp.Actions.SimpleActionExecuteEventHandler(this.ShowReportPilot_Action_Execute);
             // 
+            // simpleReport
+            // 
+            this.simpleReport.Caption = "Simple Report";
+            this.simpleReport.Category = "Reports";
+            this.simpleReport.ConfirmationMessage = null;
+            this.simpleReport.Id = "SimpleReport";
+            this.simpleReport.TargetObjectType = typeof(AirPort.Module.BusinessObjects.Galaxy_db.rb_Pilot);
+            this.simpleReport.TargetViewType = DevExpress.ExpressApp.ViewType.DetailView;
+            this.simpleReport.ToolTip = null;
+            this.simpleReport.TypeOfView = typeof(DevExpress.ExpressApp.DetailView);
+            this.simpleReport.Execute += new DevExpress.ExpressApp.Actions.SimpleActionExecuteEventHandler(this.simpleReport_Execute);
+            // 
             // PilotViewController
             // 
             this.Actions.Add(this.ShowReportPilot_Action);
-            this.Activated += new System.EventHandler(this.PilotViewController_Activated);
+            this.Actions.Add(this.simpleReport);
 
         }
 
         #endregion
 
         private DevExpress.ExpressApp.Actions.SimpleAction ShowReportPilot_Action;
+        private DevExpress.ExpressApp.Actions.SimpleAction simpleReport;
     }
 }
